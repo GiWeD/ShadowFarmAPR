@@ -9,9 +9,10 @@ costantInflux = TVL*PF / compoundTime
 
 for i in range(compoundTime):
 
-    #first day deposit TVL
+    #first day deposit TVL, we harvest next day --> singleBalance = 0
     if (i==0):
         singleBalance.append(0)
+
 
     #else farm PF+Single and stake in singleStake
     else:
