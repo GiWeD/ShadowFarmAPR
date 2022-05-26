@@ -35,5 +35,10 @@ finalBalance = singleBalance[-1]
 # Im considering everything = 1$. In case the finalBalance is a token just do finalBalance*PriceOfToken 
 annualPercentageReturn = (finalBalance / TVL) *100
 
+
+## PRINT ##
+
+## FINALBALANCE =   64.59025906560294
+## APR          =   6.459025906560294 % [PF WAS 5%, SHADOWFARMS INCREASED BY ~29%]     
 print(finalBalance)
 print(annualPercentageReturn)
